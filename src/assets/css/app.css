@@ -1,0 +1,20 @@
+/*
+Dark Red      #591E23   rgb(89,30,35)
+Red:          #943546   rgb(148,53,70)
+Cream:        #FFE4B0
+Choco light   #A68572
+Coffee        #73503C
+Gray          #393939   rgb(57,57,57)
+Light Gray    #6E6E6E   rgb(110,110,110)
+Purple        #94356A   rgb(148,53,106)
+Dark Purple   #3A1540   rgb(148,53,106)
+Light Purple  #A13AB0   rgb(161,58,176)
+*/
+
+/***** General *****/
+body{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.95em;
+  color: #393939;
+  /*border: solid 1px purple;*/
+}
