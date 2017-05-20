@@ -56,6 +56,8 @@ textarea {
   font-family: 'Taviraj', serif;
   width: 90%;
   padding: 1% 2%;
+  resize: none;
+  overflow: auto;
 }
 
 .btnForm{
