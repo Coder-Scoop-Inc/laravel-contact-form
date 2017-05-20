@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!-- Head -->
+	<head>
+		<!-- Meta Data
+        ============================================================== -->
+    <title>CoderScoop ContactForm / HTML template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="keyWords" content="laravel contact form">
+		<meta charset="utf-8">
+
+		<!-- Fonts, CSS & JS
+        ============================================================== -->
+		<link rel="icon" href="../assets/img/icon.png">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Taviraj" >
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:500" >
+		<link rel="stylesheet" href="../assets/css/normalize.css">
+		<link rel="stylesheet" href="../assets/css/app.css">
+	</head>
+
+	<!-- Body -->
+	<body>
+		<!-- Contact Form
+				============================================================== -->
+        <form  action="index.html" method="post">
+          <fieldset class="contactFld">
+            <legend> 	contact information </legend>
+						<p>fields denoted with <span>(*)</span> are required</p><br>
+						<label for="firstname" class="required">first name:</label>
+            <input type="text" name="firstname" placeholder="...first name..." required><br>
+						<label for="lastname">last name:</label>
+            <input type="text" name="lastname" placeholder="...last name..." required><br>
+						<label for="email" class="required">email address:</label>
+            <input type="email" name="email" placeholder="address@example.com" required><br>
+						<label for="tel">telephone:</label>
+            <input type="tel" name="usrtel" placeholder="+1 (111)-111-1111"><br>
+						<label for="message" class="required">message:</label>
+            <textarea name="message" spellcheck="true"
+											rows="10" cols="90"
+											placeholder="...your message here..." required></textarea>
+            <br>
+          </fieldset>
+
+          <input type="submit" value="Submit" class="btnForm">
+          <input type="reset" class="btnForm">
+        </form>
+
+		<!-- Footer
+				============================================================== -->
+		<footer>
+		</footer>
+	</body>
+</html>
