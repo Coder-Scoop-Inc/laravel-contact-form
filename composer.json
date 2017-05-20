@@ -1,0 +1,29 @@
+{
+    "name": "coderscoop/laravel-contact",
+    "description": "Ready to go contact form for Laravel 5.*",
+    "type": "package",
+    "require": {
+        "coderscoop/laravel-recaptcha": "^1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Coder Scoop",
+            "email": "team@coderscoop.com"
+        }
+    ],
+     "autoload": {
+        "psr-4": {
+            "Coderscoop\\LaravelContact\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Coderscoop\\LaravelContact\\Tests\\": "test/"
+        }
+    },
+    "minimum-stability": "stable"
+}
