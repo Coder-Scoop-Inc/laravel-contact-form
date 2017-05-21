@@ -22,7 +22,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Coderscoop\\LaravelContact\\Tests\\": "test/"
+            "Coderscoop\\LaravelContact\\Tests\\": "tests/"
         }
     },
     "minimum-stability": "stable"
